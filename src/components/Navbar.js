@@ -15,11 +15,11 @@ function Navbar() {
       <header>
         <div class="logo">Logo</div>
         <nav ref={navRef}>
-            <a href=''>Home</a>
-            <a href=''>My Works</a>
-            <a href=''>Blogs</a>
-            <a href=''>About</a>
-            <a href=''><i class='fab fa-linkedin'></i></a>
+            <a href='#'>Home</a>
+            <a href='#'>My Works</a>
+            <a href='#'>Blogs</a>
+            <a href='#'>About</a>
+            <a href='#'><i class='fab fa-linkedin'></i></a>
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                 <FaTimes/>
             </button>

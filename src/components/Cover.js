@@ -2,7 +2,7 @@ import React from 'react'
 import { MyComponent } from "./Typing";
 import "../Styles/nav.css";
 import "../Styles/cover.css";
-import {profile} from "../Imgs/profile.jpg"
+import {profile} from "../Imgs/profile.png"
 
 function Cover() {
   return (
@@ -27,13 +27,11 @@ function Cover() {
         </div>
       </section>
 
-      <div class='img-profile'>
-      <img src={require('../Imgs/profile.jpg')} Style='height: 500px; width: 500px;'/>
-      <h5 className='h5'>test</h5>
+      <div  class='profile-container'>
+      <img class='profile-image' src={require('../Imgs/profile.png')} />
+      <div class="rotating-circle"></div>
       </div>
     </div>
-
-    
   )
 }
 
