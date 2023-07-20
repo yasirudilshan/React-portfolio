@@ -5,6 +5,7 @@ import TypedAnimation from "./components/TypedAnimation";
 import Typing from "./components/Typing";
 import Nav from "./components/Nav";
 import { MyComponent } from "./components/Typing";
+import SectionTwo from "./components/SectionTwo";
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
     <React.Fragment>
     <Nav/>
     <Cover/>
+    <SectionTwo/>
     </React.Fragment>
+   
   );
 }
 

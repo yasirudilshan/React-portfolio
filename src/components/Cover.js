@@ -4,6 +4,8 @@ import "../Styles/nav.css";
 import "../Styles/cover.css";
 import {profile} from "../Imgs/profile.png"
 
+
+
 function Cover() {
   return (
     <div class="wrapper">
@@ -25,6 +27,7 @@ function Cover() {
             <a href="">Let's Talk</a>
           </div>
         </div>
+        
       </section>
 
       <div  class='profile-container'>

@@ -1,0 +1,105 @@
+#mySidenav a {
+    position:fixed; /* Position them relative to the browser window */
+    left: -50px; /* Position them outside of the screen */
+    margin-top: 170px;
+    text-align: right;
+    transition: 0.3s; /* Add transition on hover */
+    padding: 10px; /* 15px padding */
+    padding-top: 10px;
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    
+    top: 20px;
+    background-color: #04AA6D;
+  }
+
+  #about .icon {
+    display: inline-block;
+  }
+
+  #about:hover .icon{
+    display: none;
+  }
+
+  #about:hover .text {
+    display: inline-block;
+  }
+  
+  #about .text {
+    display: none;
+  }
+
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  #blog .icon {
+    display: inline-block;
+  }
+
+  #blog:hover .icon{
+    display: none;
+  }
+
+  #blog:hover .text {
+    display: inline-block;
+  }
+  
+  #blog .text {
+    display: none;
+  }
+
+  #projects {
+    top: 140px;
+    background-color: #f44336; /* Red */
+  }
+
+  #projects .icon {
+    display: inline-block;
+  }
+
+  #projects:hover .icon{
+    display: none;
+  }
+
+  #projects:hover .text {
+    display: inline-block;
+  }
+  
+  #projects .text {
+    display: none;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555 /* Light Black */
+  }
+
+  #contact .icon {
+    display: inline-block;
+  }
+
+  #contact:hover .icon{
+    display: none;
+  }
+
+  #contact:hover .text {
+    display: inline-block;
+  }
+  
+  #contact .text {
+    display: none;
+  }

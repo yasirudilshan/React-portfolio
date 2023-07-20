@@ -1,4 +1,5 @@
 .logo{
+    padding-top: 20px;
     font-size: 25px;
     color: #ededed;
     text-decoration: none;
@@ -7,6 +8,7 @@
 }
 
 .navbar a{
+    padding-top: 20px;
     font-size: 15px;
     color: #ededed;
     text-decoration: none;
