@@ -1,6 +1,7 @@
 
 import { useRef } from 'react'
 import {FaBars,FaTimes} from 'react-icons/fa'
+import {SiAboutdotme} from 'react-icons/si'
 import "../Styles/main.css";
 
 function Navbar() {

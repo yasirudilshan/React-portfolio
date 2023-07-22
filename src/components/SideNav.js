@@ -1,9 +1,10 @@
 import React from "react";
 import "../Styles/sidenav.css";
 import "../Styles/section.css";
-import { FaHeart, FaRegHeart } from 'react-icons/fa';
-import { AiFillProfile,AiFillContacts } from "react-icons/ai";
-import { GrProjects } from "react-icons/gr";
+import { SlHome,SlPhone,SlBookOpen } from "react-icons/sl";
+import { RxPerson } from "react-icons/rx";
+
+
 
 function SideNav() {
   return (
@@ -11,19 +12,19 @@ function SideNav() {
 
 <span class="icon"><i class="fa fa-home"></i></span>
       <a href="#" id="about" >
-            <span class="icon"><AiFillProfile /></span>
+            <span class="icon"><SlHome /></span>
             <span class="text">Home</span>
       </a>
-      <a href="#section2" id="blog">
-            <span class="icon"><GrProjects /></span>
+      <a href="#section1" id="blog">
+            <span class="icon"><RxPerson /></span>
             <span class="text">blog</span>
       </a>
-      <a href="#section1" id="projects">
-            <span class="icon"><FaHeart /></span>
+      <a href="#section2" id="projects">
+            <span class="icon"><SlBookOpen /></span>
             <span class="text">projects</span>
       </a>
       <a href="#section3" id="contact">
-            <span class="icon"><AiFillContacts /></span>
+            <span class="icon"><SlPhone /></span>
             <span class="text">contact</span>
       </a>
 

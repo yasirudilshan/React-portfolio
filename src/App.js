@@ -6,6 +6,7 @@ import Typing from "./components/Typing";
 import Nav from "./components/Nav";
 import { MyComponent } from "./components/Typing";
 import SectionTwo from "./components/SectionTwo";
+import ContactSection from "./components/ContactSection";
 
 
 function App() {

@@ -1,0 +1,165 @@
+.heading{
+    padding-top: 2%;
+    display: flex;
+    font-size: 9vh;
+    justify-content: center;
+    margin-top: 100px;
+    font: 1em sans-serif;
+    color: #0ef;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-items{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    
+    display: flex;
+    gap: 5%;
+    
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.4px);
+    -webkit-backdrop-filter: blur(1.4px);
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
+        
+}
+
+.contact-email{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    align-items: center;
+    gap: 10px 70px;
+    transition-duration: .3s;
+  
+}
+
+.contact-email:hover{
+    transform: scale(1.2);
+    
+}
+
+.contact-email .name { 
+    font-size: 20px;
+    color: orange;
+    font-weight: 700;
+}
+
+.contact-email .link { 
+    font-size: 20px;
+}
+
+.contact-email .icon{
+    font-size: 0.73em;
+}
+
+.contact-list .email{
+   
+    display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.1em 0.2em;
+}
+
+/* Telephone */
+
+.contact-tele{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    align-items: center;
+    gap: 10px 70px;
+    transition-duration: .3s;
+  
+}
+
+.contact-tele:hover{
+    transform: scale(1.2);
+}
+
+.contact-tele .name { 
+    font-size: 20px;
+    color: orange;
+    font-weight: 700;
+    
+}
+
+.contact-tele .link { 
+    font-size: 20px;
+}
+
+.contact-tele .icon{
+    font-size: 0.73em;
+}
+
+/* LinkeIn */
+
+.contact-in{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    align-items: center;
+    gap: 10px 70px;
+    transition-duration: .3s;
+  
+}
+
+.contact-in:hover{
+    transform: scale(1.2);
+}
+
+.contact-in .name { 
+    font-size: 20px;
+    color: orange;
+    font-weight: 700;
+}
+
+.contact-in .link { 
+    font-size: 20px;
+}
+
+.contact-in .icon{
+    font-size: 0.73em;
+}
+
+
+/* GitHub */
+
+.contact-git{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    align-items: center;
+    gap: 10px 70px;
+    transition-duration: .3s;
+}
+
+.contact-git:hover{
+    transform: scale(1.2);
+}
+
+.contact-git .name { 
+    font-size: 20px;
+    color: orange;
+    font-weight: 700;
+}
+
+.contact-git .link { 
+    font-size: 20px;
+}
+
+.contact-git .icon{
+    font-size: 0.73em;
+}
+
+

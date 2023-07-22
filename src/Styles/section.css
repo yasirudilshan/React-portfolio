@@ -2,23 +2,27 @@ a {
     color: #fff;
     display: inline-block;
     padding: 0 1em;
-    height: 100px;
+    /* height: 100px; */
   }
   section {
     height: 100vh;
   }
   html {
         scroll-behavior: smooth;
+    
       }
       #section1{
-        background-color:green;
+    
+        background-color:#081b29;
         font-size: 5em;
       }
       #section2{
-        background-color:blue;
+  
+        background-color:#081b29;
         font-size: 5em;
       }
       #section3{
-        background-color:yellow;
+  
+        background-color:#081b29;
         font-size: 5em;
       }

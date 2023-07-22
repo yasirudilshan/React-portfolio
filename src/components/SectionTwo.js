@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Styles/section.css";
 import SideNav from './SideNav';
+import ContactSection from './ContactSection';
+import ProjectSection from './ProjectSection';
 
 function SectionTwo() {
   
@@ -8,16 +10,14 @@ function SectionTwo() {
     
     <div>
       
-       <nav>
-        
-      <a href="#section1">2</a> 
-      <a href="#section3">3</a>
-    </nav>
-    <section id="section1">2</section>
-    <SideNav/>
-    <section id="section2">2
+    <section id="section1">Blog
     </section>
-    <section id="section3">3gfdg
+    <SideNav/>
+    <section id="section2">
+      <ProjectSection/>
+    </section>
+    <section id="section3">
+    <ContactSection/>
     </section>
     
     </div>
