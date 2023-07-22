@@ -18,13 +18,13 @@ function Cover() {
           </div>
           <p>
             Meet Yasiru Dilshan, an ambitious and active undergraduate student
-            with a passion for software development. With his exceptional
+            with a passion for software development. With exceptional
             technical skills and eagerness to learn, has become a valuable asset
             to any team works with.
           </p>
           <div class="btn-box">
-            <a href="">Hire Me</a>
-            <a href="">Let's Talk</a>
+            <a href="#section1">About Me</a>
+            <a href="#section3">Let's Talk</a>
           </div>
         </div>
         

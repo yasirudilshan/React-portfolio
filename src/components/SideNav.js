@@ -17,7 +17,7 @@ function SideNav() {
       </a>
       <a href="#section1" id="blog">
             <span class="icon"><RxPerson /></span>
-            <span class="text">blog</span>
+            <span class="text">Me</span>
       </a>
       <a href="#section2" id="projects">
             <span class="icon"><SlBookOpen /></span>

@@ -3,6 +3,7 @@ import "../Styles/section.css";
 import SideNav from './SideNav';
 import ContactSection from './ContactSection';
 import ProjectSection from './ProjectSection';
+import AboutSection from './AboutSection';
 
 function SectionTwo() {
   
@@ -10,7 +11,8 @@ function SectionTwo() {
     
     <div>
       
-    <section id="section1">Blog
+    <section id="section1">
+      <AboutSection/>
     </section>
     <SideNav/>
     <section id="section2">

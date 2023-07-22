@@ -1,11 +1,19 @@
 .heading{
     padding-top: 2%;
     display: flex;
-    font-size: 9vh;
+    font-size: 4vh;
     justify-content: center;
     margin-top: 100px;
-    font: 1em sans-serif;
     color: #0ef;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Sub-heading{
+    margin-top: 5px;
+    display: flex;
+    font-size: 6vh;
+    justify-content: center;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -44,7 +52,15 @@
 .contact-email:hover{
     transform: scale(1.2);
     
+    
 }
+
+.contact-email .icon:hover{
+    animation: loading 0.5s linear;
+ 
+}
+
+
 
 .contact-email .name { 
     font-size: 20px;
@@ -57,7 +73,7 @@
 }
 
 .contact-email .icon{
-    font-size: 0.73em;
+    font-size: 0.5em;
 }
 
 .contact-list .email{
@@ -85,6 +101,11 @@
     transform: scale(1.2);
 }
 
+.contact-tele .icon:hover{
+    animation: loading 0.5s linear;
+ 
+}
+
 .contact-tele .name { 
     font-size: 20px;
     color: orange;
@@ -97,7 +118,7 @@
 }
 
 .contact-tele .icon{
-    font-size: 0.73em;
+    font-size: 0.5em;
 }
 
 /* LinkeIn */
@@ -117,6 +138,11 @@
     transform: scale(1.2);
 }
 
+.contact-in .icon:hover{
+    animation: loading 0.5s linear;
+ 
+}
+
 .contact-in .name { 
     font-size: 20px;
     color: orange;
@@ -128,7 +154,7 @@
 }
 
 .contact-in .icon{
-    font-size: 0.73em;
+    font-size: 0.5em;
 }
 
 
@@ -148,6 +174,11 @@
     transform: scale(1.2);
 }
 
+.contact-git .icon:hover{
+    animation: loading 0.5s linear;
+ 
+}
+
 .contact-git .name { 
     font-size: 20px;
     color: orange;
@@ -159,7 +190,16 @@
 }
 
 .contact-git .icon{
-    font-size: 0.73em;
+    font-size: 0.5em;
 }
 
+/* Rotating Animation */
 
+@keyframes loading {
+    0% { 
+      transform: rotate(0); 
+    }
+    100% { 
+      transform: rotate(360deg);
+    }
+   }

@@ -7,7 +7,7 @@ class MyComponent extends Component {
       return (
           <div>
               <Typed
-                  strings={['Youtuber','Freelancer','Web Developer']}
+                  strings={['Mobile App Developer','Freelancer','Web Developer']}
                   backSpeed={90}
                   typeSpeed={90}
                   loop

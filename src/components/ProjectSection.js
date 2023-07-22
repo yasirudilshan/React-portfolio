@@ -1,9 +1,11 @@
 import React from 'react'
+import ImageSlider from './ImageSlider'
+import "../Styles/imageslider.css";
 
 function ProjectSection() {
   return (
-    <div>
-      Project
+    <div className='imageslider'>
+      <ImageSlider/>
     </div>
   )
 }
